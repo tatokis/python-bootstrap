@@ -55,7 +55,7 @@ PACKAGES = {
     ),
     'tomli': Package(
         EXTERNAL / 'tomli',
-        EXTERNAL / 'tomli',
+        EXTERNAL / 'tomli' / 'src',
         {'tomli'},
     ),
     'pep517': Package(
