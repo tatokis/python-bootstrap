@@ -9,4 +9,4 @@ import installer.__main__  # noqa: E402
 
 
 if __name__ == '__main__':
-    installer.__main__.main(sys.argv[1:], 'python -m bootstrap.install')
+    installer.__main__._main(sys.argv[1:], 'python -m bootstrap.install')
