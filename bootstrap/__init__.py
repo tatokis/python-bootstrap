@@ -63,6 +63,22 @@ PACKAGES = {
         EXTERNAL / 'pep517',
         {'pep517'},
     ),
+    'typing_extensions': Package(
+        EXTERNAL / 'typing_extensions',
+        EXTERNAL / 'typing_extensions' / 'src',
+        {},
+    ),
+    'packaging': Package(
+        EXTERNAL / 'packaging',
+        EXTERNAL / 'packaging' / 'src',
+        {'packaging'},
+    ),
+    'setuptools_scm': Package(
+        EXTERNAL / 'setuptools_scm',
+        EXTERNAL / 'setuptools_scm' / 'src',
+        {'setuptools_scm'},
+    ),
+
 }
 
 EXTRA_PATH = [str(package.module_path) for package in PACKAGES.values()]

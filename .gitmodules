@@ -19,3 +19,12 @@
 [submodule "external/tomli"]
 	path = external/tomli
 	url = https://github.com/hukkin/tomli.git
+[submodule "external/setuptools_scm"]
+	path = external/setuptools_scm
+	url = https://github.com/pypa/setuptools_scm.git
+[submodule "external/typing_extensions"]
+	path = external/typing_extensions
+	url = https://github.com/python/typing_extensions.git
+[submodule "external/packaging"]
+	path = external/packaging
+	url = https://github.com/pypa/packaging.git
