@@ -78,6 +78,11 @@ PACKAGES = {
         EXTERNAL / 'setuptools_scm' / 'src',
         {'setuptools_scm'},
     ),
+    'jaraco.functools': Package(
+        EXTERNAL / 'jaraco.functools',
+        EXTERNAL / 'jaraco.functools' / 'jaraco' / 'functools',
+        {},
+    ),
 
 }
 
