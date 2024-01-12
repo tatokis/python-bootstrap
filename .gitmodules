@@ -31,3 +31,6 @@
 [submodule "external/jaraco.functools"]
 	path = external/jaraco.functools
 	url = https://github.com/jaraco/jaraco.functools.git
+[submodule "external/calver"]
+	path = external/calver
+	url = https://github.com/di/calver.git

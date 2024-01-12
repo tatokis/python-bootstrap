@@ -83,6 +83,11 @@ PACKAGES = {
         EXTERNAL / 'jaraco.functools' / 'jaraco' / 'functools',
         {},
     ),
+    'calver': Package(
+        EXTERNAL / 'calver',
+        EXTERNAL / 'calver' / 'src',
+        {'calver'}
+    )
 
 }
 
